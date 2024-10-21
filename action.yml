@@ -1,0 +1,11 @@
+name: 'getproperties_from_pr'
+description: 'base on PR property'
+inputs:
+  file_name: #id of the input
+    description: 'yaml file to be read'
+    required: true
+  repo_name: #id of the input
+    description: 'repo name to which file to be downloaded'
+    required: true
+    
+  
